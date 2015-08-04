@@ -36,7 +36,9 @@ public class MainActivity extends Activity implements OnClickListener{
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_main);//在Activity 中显示视图
+		
+		//findViewById(R.id.<android.id 属性值>)
 		button_c=(Button) findViewById(R.id.button_c);
 		button_del=(Button) findViewById(R.id.button_del);
 		button_multi=(Button) findViewById(R.id.button_multi);
