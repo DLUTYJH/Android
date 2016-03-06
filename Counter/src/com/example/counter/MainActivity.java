@@ -32,6 +32,8 @@ public class MainActivity extends Activity implements OnClickListener{
 	Button button_9;
     EditText etv;
     boolean flag=false;
+    
+    
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
